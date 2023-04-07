@@ -1,0 +1,66 @@
+body{
+    background-color: greenyellow;
+}
+
+#score{
+    float: left;
+    font-size: 25px;
+    font: bolder;
+    font-family: 'Playfair Display', serif;
+    color:blue;
+    margin-left: 50px;
+    }
+#time{
+    float:right;
+    font-size: 25px;
+    font:bolder;
+    font-family: 'Playfair Display', serif;
+    color: red;
+    margin-right: 50px;
+}
+
+#drawn_sketch{
+    font-size:25px;
+    font-weight: bolder;
+    color:red;
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+#sketch{
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    color:black;
+    font-weight: bolder;
+}
+#confidence{
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    color:black;
+    font-weight: bolder;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    color: blue;
+    background-color: antiquewhite;
+}
+#show_sketch{
+    float:right;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
